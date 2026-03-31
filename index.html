@@ -10,11 +10,19 @@
 
 <body>
     <header class="site-header">
-        <button class="menu-button"></button>
-        <a href="index.html" class="logo"></a>
-        <div class="divider"></div>
-        <button class="toolbar-button"></button>
-        <button class="search-button"></button>
+        <button class="menu-button"><img src="icons/menu-button.svg" alt="Меню"></button>
+        <div class="divider-1"></div>
+        <a href="index.html" class="logo" alt="logo"></a>
+        <button class="call-button"><img src="icons/call.svg" alt="Call"></button>
+        <button class="chat-button"><img src="icons/chat.svg" alt="Chat"></button>
+        <button class="profile-button"><img src="icons/profile.svg" alt="Profile"></button>
+        <div class="divider-2"></div>
+        <div class="toolbar-button__container">
+        <label for="toolbar-button" class="toolbar-button__label">Оставить заявку</label><button class="toolbar-button" id="toolbar-button"><img src="icons/toolbar-button.svg" alt="Settings"></button>
+        </div>
+        <div class="search-button__container">
+        <label for="search-button" class="search-button__label">Статус ремонта</label><button class="search-button" id="search-button"><img src="icons/magnifier.svg" alt="Search"></button>
+        </div>
 
     </header>
 
@@ -39,6 +47,7 @@
         <div class="gradient-block"></div>
         </div>
         <article class="article">
+            <div class="article-text__container">
             <input type="checkbox" id="read-more-checkbox">
             <p class="article__text">
                 Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
@@ -58,7 +67,7 @@
             
             <label for="read-more-checkbox" class="more-button"><div class="more-button__icon"></div>
                 <p class="more-button__text">Читать Далее</p></label>
-
+            </div>
 
             <div class="article__p__image" alt="Photo of the company logo"><img src="images/5caedb2bec28084f3de98850700667e14dbc02fd.png" alt="image of the company logo" class="page-image" width="100%"></div>
 
