@@ -355,16 +355,16 @@ body {
 .more-button {
   display: flex;
   /* width: 41.25vw; */
-  width: 8rem;
+  /* width: 8rem; */
   height: 1.5rem;
   font-family: tt-lake;
   font-weight: 600;
   font-size: 1rem;
   margin-top: 1rem;
-  margin-left: 1.5rem;
+  padding-left: 1rem;
   color: #1b1c21;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .more-button__icon {
@@ -435,6 +435,9 @@ body {
   .article__p__image {
     width: 50%;
     padding-right: 3rem;
+  }
+  .more-button {
+    padding-left: 2rem;
   }
   /* .group-1 {
     margin: 0;
